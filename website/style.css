@@ -1,0 +1,145 @@
+body {
+    background: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app {
+    display: grid;
+    grid-auto-rows: minmax(150px, auto);
+    /* grid-template-columns:  */
+    height:100vh;
+    background-image: url("images/1.png");
+    background-color: #fff; /* Used if the image is unavailable */
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Josefin Slab', sans-serif;
+}
+
+.holder {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.entry {
+    background: #3b4a6b;
+}
+
+#entryHolder {
+    font-style: italic;
+    padding: 0.5em;
+    line-height: 1.5em;
+    color: #f0d43a;
+}
+
+.link {
+    text-decoration: none;
+    color: #22b2da;
+}
+
+#zip {
+    padding-left: 0.5em;
+    margin-top: 0.5em;
+}
+
+#feelings {
+    margin-top: 0.5em;
+    padding: 0.5em;
+}
+
+.headline {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3em;
+    padding: 1em;
+    letter-spacing: 0.2em;.
+    font-weight: bold;
+    color: #f0d43a;
+    text-shadow: 2px 2px #ff0000;
+}
+
+.title {
+    padding: 0.5em;
+    text-decoration: underline #f0d43a;
+    color: #22b2da;
+    font-size: 20px;
+}
+
+#generate {
+    padding: 0.5em;
+}
+
+#generate:hover {
+    background-color: #f0d43a;
+    color: #22b2da;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label {
+    display:block;
+    font-size: 26px;
+    color: #3b4a6b;
+}
+
+input {
+    display:block;
+    height: 60px;
+    width: 320px;
+    background:#22b2da;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Josefin Slab', sans-serif;
+    border: none;
+}
+
+button {
+    width: 100%;
+    height: 100px;
+    background: #3b4a6b;
+    color: #f0d43a;
+    font-size: 26px;
+    font-family: 'Josfin Slab', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #3b4a6b;
+    margin: 1em auto;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+textarea {
+    background:#22b2da;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Josefin Slab', sans-serif;
+}
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #f0d43a; 
+    font-family: 'Josefin Slab', sans-serif;
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #f0d43a; 
+    font-family: 'Josefin Slab', sans-serif;
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #f0d43a; 
+    font-family: 'Josefin Slab', sans-serif;
+} 
