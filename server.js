@@ -28,7 +28,7 @@ const server = app.listen(port, listening());
 
 function listening() {
     console.log(`Server running on localhost: ${port}`);
-};
+}
 
 // GET route
 app.get('/all', sendData);
@@ -36,7 +36,7 @@ app.get('/all', sendData);
 function sendData (req, res) {
     res.send(projectData);
     console.log('GET request is being processed. Sending Project data.');
-});
+}
 
 // POST route
 app.post('/add', callBack);
@@ -52,4 +52,4 @@ function callBack (req, res) {
     console.log(
         `Temperature: ${projectData.temp}, date: ${projectData.date}, content: ${projectData.content}`
     );
-});
+}
