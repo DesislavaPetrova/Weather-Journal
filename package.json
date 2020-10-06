@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FelixGeelhaar/udacity-project-3-weahter-journal-app.git"
+    "url": "git+https://github.com/DesislavaPetrova/Weather-Journal.git"
   },
-  "author": "Desislava Petrova",
-  "license": "MIT",
+  "author": "Desislava Petrova <desislava.p.petrova@gmail.com>",
+  "license": "",
   "bugs": {
-    "url": "https://github.com/FelixGeelhaar/udacity-project-3-weahter-journal-app/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/FelixGeelhaar/udacity-project-3-weahter-journal-app#readme",
+  "homepage": "https://github.com/DesislavaPetrova/Weather-Journal",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
