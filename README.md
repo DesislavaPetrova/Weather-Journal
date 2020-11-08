@@ -1,6 +1,6 @@
 # Weather-Journal App
 
-## Udacity Front end Nanodegree: Project 3
+## Udacity Front End Nanodegree: Project 3
 
 ## HTML5, CSS3, JavaScript
 
